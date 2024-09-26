@@ -1,0 +1,707 @@
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    }
+    .main-contant{
+        width: 97vw;
+        height: auto;
+        background-color: #000;
+    }
+    .wash-head {
+        text-align: center;
+        height: 120px;
+        width:100%;
+        align-content: center;
+    }
+    
+    .wash-head h1 {
+        font-size: 70px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: nowrap; 
+        margin: 0;
+    }
+    .creami-head{
+        height: 120px;
+        align-content: center;
+    }
+    .creami-head h1 {
+        font-size: 70px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: nowrap; 
+        text-shadow: 1px 1px 2px;
+        text-align: center;
+        margin: 0;
+    }
+     .services-contact-form li {
+        padding: 5px;
+        justify-content: justify;
+        font-family: 'Mulish', sans-serif;
+    }
+    .headlamp-head{
+        height: 120px;
+        align-content: center;
+    }
+    .headlamp-head h1{
+        font-size: 70px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: wrap; 
+        text-shadow: 1px 1px 2px;
+        text-align: center;
+        margin: 0;
+    }
+    .services-contant {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        width: 90%;
+        margin: 5% auto;
+    }
+    .services-contact-image {
+        flex: 1; 
+        width: 50%;
+    }
+    
+    .services-contact-image img {
+        width: 100%; 
+        height: 370px;
+        border-radius: 20px;
+    }
+    .services-contact-form h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .services-contact-form h3 {
+        margin-left: 50px;
+    }
+    .services-contact-form li{
+        font-size:16px;
+        width: 80%;
+        margin-left: 50px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .services-contact-form{
+        color: white;
+        width: 50%;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+    
+
+    .creami-contant {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        padding: 20px;
+        width: 90%;
+        margin: 5% auto;
+    }
+    .creami-contact-image {
+        flex: 1; 
+        width: 50%;
+    }
+    
+    .creami-contact-image img {
+        width: 100%; 
+        height: 370px;
+        border-radius: 20px;
+    }
+    .creami-contact-form h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .creami-contact-form h3 {
+        margin-left: 50px;
+    }
+
+    .creami-contact-form li{
+        font-size:16px;
+        width: 80%;
+        margin-left: 50px;
+        color: white;
+        margin-bottom: 10px;
+        font-family: 'Mulish', sans-serif;
+    }
+    .creami-contact-form{
+        color: white;
+        width: 50%;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }    
+    .midd-contant {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        padding: 20px;
+        width: 90%;
+        margin: 5% auto;
+    }
+    .midd-contact-image {
+        flex: 1; 
+        width: 50%;
+    }
+    
+    .midd-contact-image img {
+        width: 100%; 
+        height: 370px;
+        border-radius: 20px;
+    }
+    .midd-contact-form h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    .midd-contact-form li{
+        font-size:16px;
+        width: 80%;
+        margin-left: 50px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .midd-contact-form{
+        color: white;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .Interior-head{
+        text-align: center;
+        height: 120px ;
+        align-content: center;
+    }
+    
+    .Interior-head h1 {
+        font-size: 70px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: nowrap; 
+        text-shadow: 1px 1px 2px;
+        margin: 0;
+        align-items: center;
+    }
+    .engine-head h1{
+        font-size: 70px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: nowrap; 
+        text-shadow: 1px 1px 2px;
+        text-align: center;
+        margin: 0;
+    }
+    .Wind-head{
+        text-align: center;
+        height: 120px;
+        align-content: center;
+    }
+    .Wind-head h1{
+    font-size: 70px;
+    color: transparent; 
+    -webkit-text-stroke: 1px whitesmoke;
+    z-index: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif; 
+    letter-spacing: 10px; 
+    white-space: nowrap; 
+    text-shadow: 1px 1px 2px;
+    text-align: center;
+    margin: 0;
+    }
+    p{
+        font-size: 16px;
+        margin-left: 50px;
+        color: white;
+        width: 88%;
+        justify-content: justify;
+        font-family: 'Mulish', sans-serif;
+    }
+    @media screen and (max-width: 1200px){
+        .Interior-head h1 {
+            font-size: 70px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: wrap; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+        } 
+        .Interior-head{
+            height:100px;
+            width: auto;
+            align-content: center;
+        }
+        .engine-head{
+            height: 100px;
+            align-content: center;
+        }
+        .engine-head h1{
+            font-size: 65px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: nowrap; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+            margin: 0;
+        }
+        .Wind-head{
+            text-align: center;
+            height: 150px;
+            align-content: center;
+        }
+        .Wind-head h1{
+        font-size: 60px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: nowrap; 
+        text-shadow: 1px 1px 2px;
+        text-align: center;
+        margin: 0;
+        }
+
+    }
+    @media screen and (max-width: 768px) {
+        .main-contant{
+            width: 100vw;
+            height: auto;
+        }
+        p{
+            font-size: 16px;
+            margin-left: 20px;
+            color: white;
+            width: 88%;
+            justify-content: justify;
+        }
+        .wash-head{
+            height: 100px;
+            text-align: center;
+        }
+        .wash-head h1 {
+            font-size: 50px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: nowrap; 
+            text-shadow: 1px 1px 2px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .midd-contant {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #000000;
+            padding: 20px;
+            width: 90%;
+            margin: 5% auto;
+        }
+        .midd-contact-image {
+            flex: 1; 
+            width: 50%;
+        }
+        
+        .midd-contact-image img {
+            width: 100%; 
+            height: 250px;
+            border-radius: 20px;
+        }
+        .services-contact-image img {
+            width: 100%; 
+            height: 250px;
+            border-radius: 20px;
+        }
+        .services-contact-form h3 {
+            margin-left: 10px;
+        }
+        .services-contact-form li{
+            font-size:14px;
+            width: 99%;
+            margin-left: 10px;
+        }
+        .midd-contact-form h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+        .services-contact-form h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            margin-left: 25px;
+        }
+    
+        .midd-contact-form li{
+            font-size:14px;
+            width: 80%;
+            margin-left: 20px;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .midd-contact-form{
+            color: white;
+            width: 50%;
+            margin-bottom: 50px;
+        }
+        .creami-contact-image img {
+            width: 100%; 
+            height: 250px;
+            border-radius: 20px;
+        }
+    
+        .Interior-head{
+            height:100px;
+            width: auto;
+        }
+        .Interior-head h1 {
+            font-size: 35px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: wrap; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+        } 
+
+        .Wind-head{
+            text-align: center;
+            height: 100px
+        }
+        .Wind-head h1{
+        font-size: 30px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: wrap; 
+        text-shadow: 1px 1px 2px;
+        text-align: center;
+        } 
+        .engine-head{
+            height: 100px;
+            align-content: center;
+        }
+        .engine-head h1{
+            font-size: 35px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: wrap; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+        }
+        .headlamp-head{
+            height: 100px;
+            align-content: center;
+        }
+        .headlamp-head h1{
+            font-size: 35px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: wrap; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+        }
+        .creami-head{
+            height: 100px;
+            align-content: center;
+        }
+        .creami-head h1 {
+            font-size: 25px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+        }
+        .creami-contact-form h3 {
+            margin-left: 10px;
+        }
+    
+        .creami-contact-form li{
+            font-size:14px;
+            width: 99%;
+            margin-left: 10px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .main-contant{
+            width: 100vw;
+            height: auto;
+        }
+
+        .midd-contact-form{
+            color: white;
+            width: 100%;
+            margin-left: 0;
+        }
+
+        p{
+            font-size: 16px;
+            color: white;
+            width: 88%;    
+            justify-content: justify;
+           }
+        .wash-head{
+            height: 100px;
+            text-align: center;
+        }
+        .wash-head h1 {
+            font-size: 40px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: nowrap; 
+            text-shadow: 1px 1px 2px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        
+    .creami-contant {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin: 0;
+            width: auto;
+        }
+        .creami-contact-image {
+            width:100%; 
+            margin-bottom: 20px;
+            align-items: center ;    
+        }
+        .creami-contact-image img {
+            width: 95%; 
+            height: 200px;
+            border-radius: 20px;
+        }
+        .creami-contact-form h2{
+            align-items: center;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .creami-contact-form{
+            color: white;
+            width: 100%;
+            margin-left: 0;
+        }
+    
+    
+        .midd-contant {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: left;
+            margin: 0;
+            width: auto;
+        }
+        .midd-contact-image {
+            width:100%; 
+            margin-bottom: 20px;
+            align-items: center ;    
+        }
+        .midd-contact-image img {
+            width: 100%; 
+            height: 200px;
+            border-radius: 20px;
+        }
+        .midd-contact-form h2{
+            align-items: center;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .midd-contact-form{
+            color: white;
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .Interior-head{
+            height:100px;
+            width: auto;
+        }
+        .Interior-head h1 {
+            font-size: 35px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: wrap; 
+            text-shadow: 1px 1px 2px;
+        
+            text-align: center;
+        } 
+        .Wind-head{
+            text-align: center;
+            height: 100px;
+            width:100%;
+        }
+        .Wind-head h1{
+        font-size: 20px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: wrap; 
+        text-shadow: 1px 1px 2px;
+        text-align: center;
+        } 
+        .engine-head{
+            height: 100px;
+            align-content: center;
+        }
+        .engine-head h1{
+            font-size: 35px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: wrap; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+        }
+        .headlamp-head{
+            height: 100px;
+            align-content: center;
+        }
+        .headlamp-head h1{
+            font-size: 35px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            white-space: wrap; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+        }
+        .creami-head{
+            height: 100px;
+            align-content: center;
+        }
+        .creami-head h1 {
+            font-size: 30px;
+            color: transparent; 
+            -webkit-text-stroke: 1px whitesmoke;
+            z-index: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            font-family: 'Chakra Petch', sans-serif; 
+            letter-spacing: 10px; 
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+            white-space: wrap;
+        }
+        .main-contant h2 {
+            white-space: wrap; 
+            margin-left: 0;
+        }
+
+        .services-contant {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin: 0;
+            width: auto;
+            padding: 20px;
+        }
+        .services-contact-image {
+            width:100%; 
+            margin-bottom: 20px;
+            align-items: center ;    
+        }
+        .services-contact-image img {
+            width: 100%; 
+            height: 200px;
+            border-radius: 20px;
+        }
+        .services-contact-form h2{
+            align-items: center;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .services-contact-form{
+            color: white;
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    

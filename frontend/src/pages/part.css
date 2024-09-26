@@ -1,0 +1,352 @@
+/* Container styles */
+.container-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+/* Image styles */
+.image-placeholder {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: right;
+}
+
+/* Overlay content styles */
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, #ffbf007b 0%, #ff6a009a 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    color: white;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.overlay-content h1 {
+    font-size: 3em;
+    margin: 0;
+    font-Family:Chakra Petch, sans-serif;
+}
+
+/* Paragraph styles */
+.overlay-content p {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-Family:Mulish, sans-serif;
+}
+
+/* Button styles */
+.overlay-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background:linear-gradient(90deg, #FFBE00 0%, #FF6B00 100%);
+    color: white;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 150px;
+    border-radius: 5px;
+    font-Family:Chakra Petch, sans-serif;
+}
+.overlay-content button:hover{
+    background:linear-gradient(90deg,  #FF6B00 0%,  #FFBE00 100%);
+}
+.submit-bt{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background:linear-gradient(90deg, #FFBE00 0%, #FF6B00 100%);
+    color: white;
+    border: none;
+    width: auto;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    font-Family:Chakra Petch, sans-serif;
+
+}
+.submit-bt:hover{
+    background:linear-gradient(90deg,  #FF6B00 0%,  #FFBE00 100%);
+}
+/* Form container styles */
+.form-container-part {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 40%;
+    height: 100%;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    box-shadow: -3px 0px 15px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    overflow-y: auto;
+}
+
+.two{
+    display: flex;
+    gap:10px;
+}
+
+/* Form heading styles */
+.form-container-part h2 {
+    margin-top: 0;
+    color: white;
+    font-Family:Chakra Petch, sans-serif;
+}
+
+/* Form field styles */
+.form-container-part form div {
+    margin-bottom: 15px;
+}
+
+.form-container-part label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-Family:Mulish, sans-serif;
+
+}
+
+.form-container-part input{
+    font-size: 16px;
+}
+
+.form-container-part textarea{
+    font-size: 16px;
+}
+
+.form-container-part input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+    box-sizing: border-box;                                                                      
+}
+
+.form-container-part input[type="number"] , .form-container-part input[type="file"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#ccc;
+    box-sizing: border-box;
+}
+
+.form-container-part input[type="number"]:focus{
+    background-color: white;
+}
+.form-container-part input[type="text"]:focus{
+    background-color: white;
+}
+
+.form-container-part input[type="email"]:focus{
+    background-color: white;
+}
+
+.form-container-part input[type="date"]:focus{
+    background-color: white;
+}
+
+.form-container-part textarea:focus{
+    background-color: white;
+}
+.form-container-part select:focus{
+    background-color: white;
+}
+
+.form-container-part input[type="time"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#ccc;
+    box-sizing: border-box;
+}
+
+.form-container-part input[type="time"]:focus{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:white;
+    box-sizing: border-box;
+}
+
+
+.form-container-part input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#ccc;
+    box-sizing: border-box;
+}
+
+.form-container-part input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background-color:#ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container-part select{
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container-part textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container-part P{
+    margin-left: 0;
+}
+
+
+.form-container-part span{
+    color: red;
+}
+
+
+  
+  .success-message-part {
+    color: #5bc0de; 
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.875em;
+  }  
+
+
+  .two121{
+    display: flex;
+    gap: 100px;
+  }
+/* Responsive styles */
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container-part {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .overlay-content {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        padding: 20px;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .overlay-content h1 {
+        font-size: 2em;
+    }
+
+    .overlay-content p {
+        font-size: 1.2em;
+    }
+
+    .overlay-content button {
+        font-size: 1em;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .image-placeholder {
+        position:absolute;
+        z-index: 1;
+        width: 100%;
+        height:100%;
+        object-position: center;
+    }
+
+    .form-container-part {
+        width: 90%;
+        height: auto;
+        position: relative; /* Change from absolute to relative */
+        top: 0; /* Adjust to start at the top of the container */
+        margin-top: 20px; /* Add some spacing above the form */
+        padding: 20px;
+        box-shadow: none;
+        margin-left: 20px;
+        z-index: 2; /* Ensure the form is above the image */
+        background-color:rgba(0, 0, 0, 0.804); /* Ensure form content is readable */
+    }
+
+    .submit-bt{
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .form-container-part label {
+        font-size: 13px;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+
+    .form-container-part h3{
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    .two121{
+        display: flex;
+        gap: 70px;
+      }
+
+      .form-container-part input[type="time"] , input[type="date"]{
+        width: 120%;
+        height: 40px;
+        padding: 0.5em;
+        font-size: 16px; /* Make it large enough for mobile devices */
+        box-sizing: border-box; /* Ensures proper box model behavior */
+        appearance: none; /* Remove native styling (if necessary) */
+        color: black;
+        -webkit-appearance: none; /* For iOS/Safari */
+      }
+
+
+
+
+      .form-container-part select {
+        width: 100%; /* Make it responsive */
+        padding: 0.5em; /* Add some padding for better user interaction */
+        font-size: 16px; /* Larger font size for mobile devices */
+        color: black;
+        box-sizing: border-box; /* Ensure consistent sizing */
+        appearance: none; /* Remove native arrow (optional) */
+        -webkit-appearance: none; /* Remove native arrow in Safari */
+      }
+      
+      
+}

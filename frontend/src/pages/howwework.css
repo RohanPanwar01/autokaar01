@@ -1,0 +1,203 @@
+.How-contant{
+    width: 100%;
+    height: 100%;
+    background:#161616;
+}
+.How-head {
+    text-align: center;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+.How-contact-form h3 {
+    font-size: 50px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.TermsCondition-head h1{
+    font-size: 80px;
+    color: transparent; 
+    -webkit-text-stroke: 1px whitesmoke;
+    z-index: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif; 
+    letter-spacing: 10px; 
+    white-space: nowrap; 
+    text-align: center;
+}
+.How-head h1 {
+    font-size: 55px;
+    color: transparent; 
+    -webkit-text-stroke: 1px whitesmoke;
+    z-index: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif; 
+    letter-spacing: 10px; 
+    white-space: wrap;
+    margin: 0;
+}
+.How-contact-form h2 {
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 200px;
+    color: whitesmoke;
+}
+.How-contact-form h2:hover{
+  background: linear-gradient(90deg, #FFBE00 0%, #FF6B00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.How-contact-form{
+    color: white;
+    width: 90%;
+    padding: 20px;
+    background-color: #161616;
+}
+.How-contact-form li{
+    font-size: 25px;
+    color: white;
+    
+}
+.How-contact-form p{
+    font-size: 20px;
+    margin-left: 200px;
+    color: white;
+    width: 75%;
+    font-family: 'Mulish, sans-serif';
+}
+.faqpoint li{
+    font-size: 23px;
+    margin-top: 5px;
+}
+@media screen and (max-width: 1200px){
+.How-head h1 {
+    font-size: 60px;
+    color: transparent; 
+    -webkit-text-stroke: 1px whitesmoke;
+    z-index: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif; 
+    letter-spacing: 10px; 
+    white-space: wrap;
+    margin: 0;
+}
+}
+@media screen and (max-width: 768px) {
+    .How-head{
+        height: 80px;
+        text-align: center;
+    }
+    .How-head h1 {
+        font-size: 20px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: wrap; 
+        text-shadow: 1px 1px 2px;
+        padding-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .How-contact-form p{
+        font-size: 16px;
+        margin-left: 0px;
+        color: white;
+        width: 95%;
+    }
+    .How-contact-form h2 {
+        margin: 10px;
+        color: whitesmoke;
+        margin-left: 0px;
+    }
+    .How-contact-form h3{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .How-contact-form li{
+    font-size: 23px;
+    color: white;
+    white-space: nowrap;
+}
+.TermsCondition-head h1{
+    font-size: 40px;
+    color: transparent; 
+    -webkit-text-stroke: 1px whitesmoke;
+    z-index: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif; 
+    letter-spacing: 10px;
+    text-align: center;
+    white-space: wrap;
+    margin-bottom: 15px;
+}
+.How-contact-form .faqpoint li{
+    font-size: 18px;
+    margin-left: 10px;
+    white-space: wrap;
+}
+}
+@media screen and (max-width: 480px) {
+    .How-head{
+        height: 80px;
+        text-align: center;
+    }
+    .How-head h1 {
+        font-size: 20px;
+        color: transparent; 
+        -webkit-text-stroke: 1px whitesmoke;
+        z-index: 0;
+        pointer-events: none;
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif; 
+        letter-spacing: 10px; 
+        white-space: wrap; 
+        text-shadow: 1px 1px 2px;
+        padding-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .How-contact-form p{
+        font-size: 16px;
+        margin-left: 0px;
+        color: white;
+        width: 99%;
+
+    }
+    .How-contact-form h2 {
+        margin: 10px;
+        color: whitesmoke;
+        margin-left: 0px;
+    }
+    .How-contact-form h3{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .How-contact-form li{
+    font-size: 23px;
+    color: white;
+    margin-left: 0px;
+}
+.TermsCondition-head h1{
+    font-size: 40px;
+    color: transparent; 
+    -webkit-text-stroke: 1px whitesmoke;
+    z-index: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif; 
+    letter-spacing: 10px;
+    text-align: center;
+    white-space: wrap;
+    margin-bottom: 15px;
+}
+}

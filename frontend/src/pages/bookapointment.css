@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Mulish:wght@400;700&display=swap');
+
+
+.contact-form input::placeholder{
+    text-transform: capitalize;
+}
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    width: 98vw;
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+.contact-image {
+    flex: 1;
+    max-width: 50%; /* Ensure the image container does not exceed half of the container width */
+    padding: 10px; /* Add padding to prevent content from touching edges */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.contact-image img {
+    width: 100%; 
+    height: 500px;
+    border-radius: 20px;
+    display: block; /* Ensure the image doesn't exceed its container */
+}
+
+.contact-form {
+    flex: 1; 
+    max-width: 48%; 
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.heading121 {
+    font-size: 50px; 
+    white-space: nowrap;
+}
+
+.contact-form label {
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+.contact-form input {
+    width: 97%; /* Make inputs take full width of the form */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    background-color: #202020;
+    color: #fff;
+    outline: none;
+}
+.contact-form input:focus {
+    border-color: #FFBE00; }
+
+.submit-button {
+    background: linear-gradient(90deg, #FFBE00 0%, #FF6B00 100%);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    width: 20%; 
+    font-size: 1.0rem; /* Adjust font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-left: 81%;
+}
+
+.checkbox-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow checkboxes to wrap on smaller screens */
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.checkbox-container label {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin: 0;
+    width: 20px; /* Adjust checkbox size */
+}
+
+.error-message {
+    color: #d9534f; 
+    padding: 20px 0; /* Adjust padding */
+    font-size: 1.25rem; /* Adjust font size */
+    font-family: 'Mulish', sans-serif;
+}
+
+.submit-message {
+    color: #5bc0de; 
+    margin: 10px 0;
+    font-size: 1.5rem; /* Adjust font size */
+    font-family: 'Mulish', sans-serif;
+    padding: 20px 0; /* Adjust padding */
+}
+/* Custom styling for DatePicker input */
+.react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  .react-datepicker__input-container input {
+    width: 97%;
+    padding: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .react-datepicker__input-container input:focus {
+    border-color: #FFBE00;
+  }
+  
+  /* Custom styling for the DatePicker pop-up */
+  .react-datepicker {
+    font-family: 'Chakra Petch', sans-serif;
+    border: 1px solid #FFBE00;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-datepicker__header {
+    background: linear-gradient(90deg, #FFBE00 0%, #ff6a00c1 100%);
+    color: white;
+  }
+  
+  .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    color: #000;
+  }
+  
+  /* Highlight the selected date */
+  .react-datepicker__day--selected, 
+  .react-datepicker__day--keyboard-selected {
+    background: linear-gradient(90deg, #FFBE00 0%, #ff6a00c1 100%);
+        color: white;
+  }
+  .react-datepicker__time-container {
+    border-left: 1px solid #FFBE00;
+  }
+    .react-datepicker__header--time {
+        background-color: #ff6a00c1;
+        padding-bottom: 21px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+  
+  .react-datepicker__time-list-item--selected {
+    background: linear-gradient(90deg, #FFBE00 0%, #ff6a00c1 100%);
+    color: white;
+  }
+  .react-datepicker__navigation {
+    align-items: center;
+    background: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    padding: 0;
+    border: none;
+    z-index: 1;
+    height: 32px;
+    width: 32px;
+    text-indent: -999em;
+    overflow: hidden;
+  }
+  .react-datepicker__navigation--previous {
+    left: 10px;
+  }
+  
+  .react-datepicker__navigation--next {
+    right: 10px;
+  }
+
+@media (max-width: 1200px) {
+    .contact-container {
+        display: flex;
+        background-color: #000000;
+        width: auto;
+        box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+        justify-content: space-between;
+    }
+    .heading121 {
+        font-size: 30px; 
+        white-space: nowrap;
+    }
+    .contact-image img {
+        width: 100%; 
+        height: auto;
+        margin-top: 100px;
+        border-radius: 20px;
+        display: block; /* Ensure the image doesn't exceed its container */
+    }
+    
+
+}
+@media (max-width: 768px) {
+    .contact-image, .contact-form {
+        max-width: 100%; /* Full width on small screens */
+        flex: 1 1 100%; /* Stack elements vertically */
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
+
+    .heading121{
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .contact-form button {
+        display: flex;
+        width: 30%;
+        align-self:center;
+        justify-content: center;
+    }
+
+    .checkbox-container {
+        flex-direction: column; /* Stack checkboxes vertically */
+    }
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        width: auto;
+        box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+        justify-content: space-between;
+        gap: 400px;
+    }
+    .contact-form input {
+        width: 95%; /* Make inputs take full width of the form */
+        padding: 10px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid gray;
+        background-color: #202020;
+        color: #fff;
+        outline: none;
+    }
+    .contact-image img {
+        width: 95%; 
+        height: auto;
+        border-radius: 20px;
+        display: block; /* Ensure the image doesn't exceed its container */
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    .react-datepicker__navigation {
+        height: 24px; /* Reduce size for mobile */
+        width: 24px;
+      }
+    
+      .react-datepicker__navigation--previous {
+        left: -130px; 
+      }
+    
+      .react-datepicker__navigation--next {
+        right: 20px; 
+      }
+      .react-datepicker__navigation-icon--next::before {
+        transform: rotate(45deg);
+        left: 130px;
+      }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        width: auto;
+        box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+        justify-content: space-between;
+        gap: 200px;
+    }
+    .contact-form input {
+        font-size: 1rem; 
+    }
+
+    .heading121 {
+        font-size: 1.5rem; 
+    }
+    .contact-image {
+        padding: 0;
+            flex: 1;
+            max-width: 50%;
+            width: auto; /* Ensure the image container does not exceed half of the container width */
+            padding: 10px; /* Add padding to prevent content from touching edges */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+        .contact-image img {
+            width: 90%; 
+            height: auto;
+            border-radius: 20px;
+            display: block; /* Ensure the image doesn't exceed its container */
+        }
+        .contact-form input {
+            width: 93%; /* Make inputs take full width of the form */
+            padding: 10px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid gray;
+            background-color: #202020;
+            color: #fff;
+            outline: none;
+        }
+
+        .submit-button{
+            margin: 0 auto;
+        }
+        react-datepicker__navigation {
+            height: 20px; /* Further reduce size for small screens */
+            width: 20px;
+          }
+        
+          .react-datepicker__navigation--previous {
+            left: px; 
+          }
+        
+          .react-datepicker__navigation--next {
+            right: px;
+          }
+    }
+    .contact-form {
+        flex: 1; 
+        max-width: auto; 
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box; /* Ensures padding is included in the element's total width */
+    }
+

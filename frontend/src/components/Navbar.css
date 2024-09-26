@@ -1,0 +1,306 @@
+.header{
+  position: sticky;
+  z-index: 20;
+  top: 0;
+}
+.navbar-ajs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161616;
+  color: #fff;
+  height: 80px;
+}
+.active-icon{
+  color: #FF6B00 ;
+  margin-left: 5px;
+}
+.inactive-icon {
+  color: #FFBE00;
+  margin-left: 5px;
+}
+.navbar-logo-ajs img {
+  width: 100px;
+}
+.navbar-logo-ajs img:hover {
+  animation: spin 1s linear forwards; 
+  transition: transform var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.mobile-menu-icon-ajs {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+/* Mobile Sidebar Styles */
+.mobile-sidebar {
+  position: fixed;
+  top: 10%;
+  right: -100%; 
+  width: 55%;
+  max-height: 100vh; 
+  background-color: #333;
+  transition: left 0.3s ease-in-out;
+  z-index: 999;
+  padding: 20px;
+  overflow-y: auto; 
+  border-radius: 20px;
+}
+
+.mobile-sidebar.open {
+  right: 0; 
+}
+.mobile-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu li {
+  margin: 10px 0;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.mobile-menu li :hover{
+  color: #FFBE00;
+}
+.dropdown-ajs a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-menu-ajs {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.dropdown-item-ajs {
+  margin-left: 40px;
+}
+.nested-dropdown-menu-ajs {
+  margin-left: 20px;
+}
+.navbar-contact-ajs {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #FFBE00 0%, #FF6B00 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar-contact-ajs:hover {
+  background: linear-gradient(90deg, #FF6B00 0%, #FFBE00 100%);
+}
+@media (max-width: 1024px) {
+  .navbar-ajs{
+    width:auto;
+  }
+  .navbar-contact-ajs{
+    width: auto;
+    font-size: 12px;
+    white-space: wrap;
+  }
+  .desktop-menu-web li {
+    position: relative;
+    margin: 0 ;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 768px) {
+
+  /* .navbar-ajs{
+    width:100%;
+  } */
+
+  .mobile-menu-icon-ajs {
+    display: block;
+    margin-right: 15px;
+  }
+
+  .desktop-menu-web {
+    display: none;
+  }
+
+  /* Disable hover for mobile view */
+  .desktop-menu-web .dropdown-ajs:hover .dropdown-menu-ajs,
+  .desktop-menu-web .dropdown-item-ajs:hover .nested-dropdown-menu-ajs {
+    display: none;
+  }
+}
+
+/* General Menu Styling */
+.desktop-menu-web {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.desktop-menu-web li {
+  position: relative;
+}
+
+/* Links */
+.desktop-menu-web li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+  font-weight: bold;
+  transition: color 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.desktop-menu-web li a:hover {
+  color:#FFBE00; /* Hover color */
+}
+
+/* Dropdown Icon Styling */
+.active-icon, .inactive-icon {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+.active-icon {
+  transform: rotate(180deg); /* Rotate when active */
+}
+
+.inactive-icon {
+  transform: rotate(0deg);
+}
+
+/* General Sub-item Styling */
+.sub-item-web a {
+  color: #fff;
+  padding: 8px 12px;
+  display: block;
+  font-size: 0.9em;
+  white-space: nowrap;
+  transition: color 0.3s;
+  list-style: none;
+}
+
+.sub-item-web a:hover {
+  color: #FFBE00;
+}
+
+/* Submenu Styling */
+.sub-menu-web {
+  display: none;
+  position: absolute;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  z-index: 999;
+}
+
+.sub-menu-web li {
+  margin-bottom: 2px;
+  list-style: none;
+}
+
+.sub-menu-web li:last-child {
+  margin-bottom: 0;
+}
+
+/* Show Submenu on Dropdown Activation */
+.dropdown-web:hover .sub-menu-web,
+.dropdown-web.active .sub-menu-web {
+  display: block;
+}
+
+/* Nested Dropdown Styling */
+.inside-menu {
+  display: none;
+  position: absolute;
+  padding-left: 15px;
+  background-color: #333;
+  margin-top: -10px; /* Adjust as needed to align with the top of the parent submenu */
+  border-left: 2px solid #FFBE00;
+  border-radius: 5px;
+  min-width: 150px; /* Adjust width as needed */
+  left: 100%; /* Position to the right of the parent submenu */
+  top: 0; /* Align with the top of the parent submenu */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.sub-item-web:hover .inside-menu,
+.sub-item-web.active .inside-menu {
+  display: block;
+}
+
+.inside-menu li {
+  padding: 2px 0;
+}
+
+.inside-menu li a {
+  font-size: 0.8em;
+}
+
+.inside-menu li a:hover {
+  color: #FFBE00;
+}
+
+@media (min-width: 769px) {
+  /* Ensure styles only apply to larger screens */
+  .desktop-menu-web {
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+  }
+
+  .desktop-menu-web li {
+    width: auto;
+  }
+
+  .desktop-menu-web li a {
+    padding: 10px 10px;
+  }
+
+  /* Dropdown and Nested Dropdown should work with hover on larger screens */
+  .sub-menu-web, .inside-menu {
+    display: none;
+  }
+
+  .dropdown-web:hover .sub-menu-web,
+  .dropdown-web.active .sub-menu-web {
+    display: block;
+  }
+
+  .sub-item-web:hover .inside-menu,
+  .sub-item-web.active .inside-menu {
+    display: block;
+  }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .desktop-menu-web {
+    display: none; 
+  }
+}
